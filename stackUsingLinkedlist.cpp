@@ -4,7 +4,7 @@ using namespace std;
 //node class respresentating a single node in the linked list
 class node
  {
-public:
+    public:
     int data;
     node* next;
 
@@ -12,4 +12,9 @@ public:
     {
         next = NULL;
     }
+};
+
+//stack class 
+class stack
+{
 };
